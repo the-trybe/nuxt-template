@@ -18,8 +18,8 @@ export default {
     lazy: true, // Lazy load translations
     langDir: 'locales/', // Directory for translation files
     defaultLocale: 'en', // Default locale
-    strategy: 'prefix_except_default', // URL prefixing strategy
-    vueI18n: './i18n.options.js' // Optional: Path to custom vue-i18n options
+    strategy: 'prefix_except_default' // URL prefixing strategy
+    // vueI18n: './i18n.options.js' // Removed as the file doesn't exist yet
   },
 
   app: {
