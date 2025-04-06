@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-starter-project-for-landing-pages",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "description": "Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuxt/image": "^1.10.0",
+    "@nuxtjs/i18n": "^9.5.2",
+    "@nuxtjs/robots": "^5.2.9",
+    "@nuxtjs/tailwindcss": "^6.13.2"
+  }
+}

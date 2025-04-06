@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any custom global styles here */
+body {
+  /* Example: Set a default font */
+  /* font-family: 'Inter', sans-serif; */
+}
