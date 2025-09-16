@@ -11,15 +11,14 @@ export default {
   ],
 
   i18n: {
-    locales: [ // Add your supported locales here
-      { code: 'en', iso: 'en-US', file: 'en.json', name: 'English' },
-      { code: 'fr', iso: 'fr-FR', file: 'fr.json', name: 'Français' }
+    langDir: "locales/",
+    lazy: true,
+    locales: [
+      { code: "en", iso: "en-US", files: ["en.json"], name: "English" },
+      { code: "fr", iso: "fr-FR", files: ["fr.json"], name: "Français" },
     ],
-    lazy: true, // Lazy load translations
-    langDir: 'locales/', // Directory for translation files
-    defaultLocale: 'en', // Default locale
-    strategy: 'prefix_except_default' // URL prefixing strategy
-    // vueI18n: './i18n.options.js' // Removed as the file doesn't exist yet
+    defaultLocale: "en",
+    strategy: "prefix_except_default",
   },
 
   app: {
