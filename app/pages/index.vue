@@ -1,4 +1,8 @@
 <script setup>
+import SectionHero from '~/components/sections/SectionHero.vue';
+import SectionFeatures from '~/components/sections/SectionFeatures.vue';
+import SectionCTA from '~/components/sections/SectionCTA.vue';
+
 const { t } = useI18n()
 
 useSeoMeta({
