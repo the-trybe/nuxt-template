@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default {
-  compatibilityDate: '2024-11-01',
+  compatibilityDate: '2025-04-06',
   devtools: { enabled: true },
 
   modules: [
