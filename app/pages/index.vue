@@ -1,11 +1,20 @@
 <script setup>
-import { useI18n } from '#imports'
 const { t } = useI18n()
+
+useSeoMeta({
+  title: () => t('site.title'),
+  description: () => t('site.description'),
+  ogTitle: () => t('site.title'),
+  ogDescription: () => t('site.description'),
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+})
 </script>
 
 <template>
-  <div class="container mx-auto px-4 py-8 text-center">
-    <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ t('welcome') }}</h1>
-    <p class="text-lg text-gray-700">{{ t('description') }}</p>
+  <div>
+    <SectionHero />
+    <SectionFeatures />
+    <SectionCTA />
   </div>
 </template>
