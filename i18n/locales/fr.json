@@ -1,5 +1,43 @@
 {
-  "welcome": "Bienvenue dans le Starter Nuxt pour Page d'Accueil !",
-  "description": "Un modèle pour créer de belles pages d'accueil.",
-  "change_language": "Changer de Langue"
+  "site": {
+    "title": "Starter Nuxt pour Pages d'Accueil",
+    "description": "Un modèle de démarrage pour créer de belles pages d'accueil avec Nuxt 4 et Tailwind CSS."
+  },
+  "nav": {
+    "home": "Accueil",
+    "change_language": "Changer de Langue"
+  },
+  "hero": {
+    "title": "Créez de Belles Pages d'Accueil Rapidement",
+    "subtitle": "Un modèle prêt pour la production propulsé par Nuxt 4 et Tailwind CSS.",
+    "cta": "Commencer"
+  },
+  "features": {
+    "title": "Fonctionnalités",
+    "i18n": {
+      "title": "Internationalisation",
+      "description": "Support multilingue avec {'@'}nuxtjs/i18n, prêt pour un public mondial."
+    },
+    "seo": {
+      "title": "Optimisé pour le SEO",
+      "description": "Balises meta, sitemap et robots.txt intégrés pour la visibilité sur les moteurs de recherche."
+    },
+    "performance": {
+      "title": "Ultra Rapide",
+      "description": "Images optimisées, chargement différé et outils de build modernes pour des performances maximales."
+    }
+  },
+  "cta": {
+    "title": "Prêt à Commencer ?",
+    "subtitle": "Clonez ce modèle et commencez à créer votre page d'accueil dès aujourd'hui.",
+    "button": "Voir sur GitHub"
+  },
+  "footer": {
+    "copyright": "© {year} Starter Nuxt pour Pages d'Accueil. Tous droits réservés."
+  },
+  "error": {
+    "title": "Page Non Trouvée",
+    "description": "La page que vous recherchez n'existe pas.",
+    "back_home": "Retour à l'Accueil"
+  }
 }

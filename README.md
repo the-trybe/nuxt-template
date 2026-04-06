@@ -1,16 +1,16 @@
-# Nuxt 3 Landing Page Starter
+# Nuxt 4 Landing Page Starter
 
-A boilerplate project for quickly building beautiful and performant landing pages using Nuxt 3.
+A boilerplate project for quickly building beautiful and performant landing pages using Nuxt 4.
 
 This starter includes:
 
-*   **Nuxt 3:** The latest version of the intuitive Vue framework.
+*   **Nuxt 4:** The latest version of the intuitive Vue framework.
 *   **Tailwind CSS:** Integrated via the `@nuxtjs/tailwindcss` module for rapid UI development.
 *   **Image Optimization:** Using `@nuxt/image` for optimized image delivery.
 *   **Internationalization (i18n):** Setup with `@nuxtjs/i18n` for multi-language support (EN/FR by default).
 *   **Basic SEO:** Default meta tags (title, description) configured in `nuxt.config.js`.
 *   **Robots.txt:** Managed via the `@nuxtjs/robots` module.
-*   **Component Structure:** Pre-defined directories (`components/common`, `components/sections`) for organization.
+*   **Component Structure:** Pre-defined directories (`app/components/sections`) for organization.
 
 ## Setup
 
@@ -84,11 +84,11 @@ bun run preview
 
 ## Customization
 
-*   **SEO:** Update default title, description, and language in the `app.head` section of `nuxt.config.js`.
-*   **Styling:** Modify `tailwind.config.js` to customize your theme. Add global styles in `assets/css/main.css` (uncomment the `css` entry in `nuxt.config.js` if you create this file).
-*   **Components:** Add reusable UI elements to `components/common` and page sections to `components/sections`.
+*   **SEO:** Update default title, description in the `app.head` section of `nuxt.config.js`. Use `useSeoMeta()` in pages for per-page SEO.
+*   **Styling:** Modify `tailwind.config.js` to customize your theme. Add global styles in `app/assets/css/main.css`.
+*   **Components:** Add reusable UI elements to `app/components/` and page sections to `app/components/sections`.
 *   **Translations:**
-    *   Add/modify language files in the `locales/` directory (e.g., `en.json`, `fr.json`).
+    *   Add/modify language files in the `i18n/locales/` directory (e.g., `en.json`, `fr.json`).
     *   Update the `locales` array in the `i18n` section of `nuxt.config.js`.
     *   Use the `$t('your.key')` function in your Vue templates/scripts to display translated strings.
 *   **Robots.txt:** Configure rules in `nuxt.config.js` under the `robots` key if needed (refer to `@nuxtjs/robots` documentation).

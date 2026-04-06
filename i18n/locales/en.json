@@ -1,5 +1,43 @@
 {
-  "welcome": "Welcome to the Nuxt Landing Page Starter!",
-  "description": "A boilerplate for building beautiful landing pages.",
-  "change_language": "Change Language"
+  "site": {
+    "title": "Nuxt Landing Page Starter",
+    "description": "A starter template for building beautiful landing pages with Nuxt 4 and Tailwind CSS."
+  },
+  "nav": {
+    "home": "Home",
+    "change_language": "Change Language"
+  },
+  "hero": {
+    "title": "Build Beautiful Landing Pages Fast",
+    "subtitle": "A production-ready starter template powered by Nuxt 4 and Tailwind CSS.",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "Features",
+    "i18n": {
+      "title": "Internationalization",
+      "description": "Multi-language support with {'@'}nuxtjs/i18n, ready for global audiences."
+    },
+    "seo": {
+      "title": "SEO Optimized",
+      "description": "Built-in meta tags, sitemap, and robots.txt for search engine visibility."
+    },
+    "performance": {
+      "title": "Blazing Fast",
+      "description": "Optimized images, lazy loading, and modern build tooling for top performance."
+    }
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "subtitle": "Clone this template and start building your landing page today.",
+    "button": "View on GitHub"
+  },
+  "footer": {
+    "copyright": "© {year} Nuxt Landing Page Starter. All rights reserved."
+  },
+  "error": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist.",
+    "back_home": "Back to Home"
+  }
 }
